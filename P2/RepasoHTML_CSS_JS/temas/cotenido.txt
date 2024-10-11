@@ -1,0 +1,30 @@
+HTML:
+¿Qué es y cómo funciona?
+HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web. Organiza el contenido en estructuras jerárquicas mediante etiquetas y permite la visualización de texto, imágenes y enlaces en un navegador.
+
+Etiquetas
+Las etiquetas son elementos del HTML que definen la estructura y contenido de una página web. Por ejemplo, <p> para párrafos, <a> para enlaces, y <img> para imágenes.
+
+Estructura básica de una página web
+Una página HTML comienza con la declaración <!DOCTYPE html>, seguida de las etiquetas <html>, <head> (para metadatos) y <body> (para el contenido visible).
+
+Textos
+El texto en HTML se maneja con etiquetas como <p> (párrafo), <h1> a <h6> (títulos), y <strong> o <em> para resaltar palabras.
+
+Listas
+HTML permite crear listas ordenadas (<ol>) y no ordenadas (<ul>), y listas de definición (<dl>), para organizar información.
+
+Imágenes
+Las imágenes se insertan en una página web usando la etiqueta <img>, que requiere el atributo src (fuente) para especificar la ubicación de la imagen.
+
+Formularios
+Los formularios en HTML permiten al usuario ingresar datos que pueden enviarse a un servidor. Se construyen con la etiqueta <form> y campos como <input>, <textarea>, y <button>.
+
+Enlaces o Hipervínculos (links)
+Los enlaces se crean usando la etiqueta <a>, que usa el atributo href para especificar la URL de destino.
+
+CSS:
+CSS (Cascading Style Sheets) es el lenguaje utilizado para dar estilo a una página web. Define la apariencia de los elementos HTML (colores, fuentes, márgenes, etc.), y se puede aplicar de manera interna, externa o en línea.
+
+JavaScript:
+JavaScript es un lenguaje de programación que permite agregar interactividad a una página web. Se utiliza para controlar el comportamiento de los elementos HTML, como responder a eventos, modificar contenido dinámicamente, o interactuar con APIs.

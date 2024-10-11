@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .menu {
+            width: 150px;
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .menu ul li {
+            margin: 5px 0;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label, select, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"], textarea, select {
+            width: 300px;
+            padding: 5px;
+            border: 1px solid black;
+        }
+        textarea {
+            height: 100px;
+        }
+        input[type="submit"] {
+            padding: 5px 10px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mi primera web</h1>
+    <div class="menu">
+        <ul>
+            <li>Inicio</li>
+            <li>Contenido</li>
+            <li>Contacto</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="content">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="biografia">Biografía</label>
+            <textarea id="biografia" name="biografia"></textarea>
+
+            <label for="edad">Edad</label>
+            <select id="edad" name="edad">
+                <option value="0-3">0 a 3</option>
+                <option value="4-7">4 a 7</option>
+                <option value="8-12">8 a 12</option>
+                <option value="13-18">13 a 18</option>
+                <option value="19+">19 o más</option>
+            </select>
+
+            <input type="submit" value="Enviar Email">
+        </form>
+    </div>
+
+</body>
+</html>
