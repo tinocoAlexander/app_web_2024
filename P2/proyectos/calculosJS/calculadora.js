@@ -7,6 +7,7 @@ function operaciones() {
 
     if (!isNumber(n1) || !isNumber(n2)) {
         alert("Introduce números válidos");
+        document.getElementById("resultado").innerHTML = "Resultado: <h2> Introduce numeros validos </h2>";
         return
     }
 
