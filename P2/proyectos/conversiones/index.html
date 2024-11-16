@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora de Conversión de Monedas</title>
+</head>
+<body>
+    <form class="calculadora">
+        <h1>Conversión de Monedas</h1>
+        <h2>¿Qué moneda tienes?</h2>
+        <select id="monedaInicio"">
+            <option value="Dolar">Dólar</option>
+            <option value="Euro">Euro</option>
+            <option value="Mexicano">Peso Mexicano</option>
+        </select>
+        <h2>¿Cuáto dinero tienes?</h2>
+        <input type="number" id="cantidad" placeholder="200">
+        <h2>¿Qué moneda quieres?</h2>
+        <select id="monedaFinal"">
+            <option value="Dolar">Dólar</option>
+            <option value="Euro">Euro</option>
+            <option value="Mexicano">Peso Mexicano</option>
+        </select>
+        <input type="button" value="Convertir">
+        <div class="image"></div>
+        <h3 id="conversion"></h3>
+    </form>
+    <script src="JS/convertir.js"></script>
+</body>
+</html>

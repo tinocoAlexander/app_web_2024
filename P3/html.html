@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <h2>Iniciar Sesión</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Ingresar</button>
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vista Protegida</title>
+</head>
+<body>
+    <h2>Bienvenido, {{ user.username }}</h2>
+    <p>Esta es una vista protegida.</p>
+    <a href="{% url 'logout' %}">Cerrar Sesión</a>
+</body>
+</html>
+
