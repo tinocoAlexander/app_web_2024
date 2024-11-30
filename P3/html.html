@@ -1,27 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Iniciar Sesión</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <h2>Iniciar Sesión</h2>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Ingresar</button>
-    </form>
+    
 </body>
 </html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Vista Protegida</title>
-</head>
-<body>
-    <h2>Bienvenido, {{ user.username }}</h2>
-    <p>Esta es una vista protegida.</p>
-    <a href="{% url 'logout' %}">Cerrar Sesión</a>
-</body>
-</html>
-
